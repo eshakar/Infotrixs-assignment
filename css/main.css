@@ -1,0 +1,234 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+html,body
+{
+  color: #5a5a5a;
+  margin:0 !important;
+  padding:0 !important;
+}
+
+
+nav {background-image: linear-gradient(to top, #08131e , #0b1b2a);color:#fff;box-shadow: 3px 5px 4px #030f1a;}
+/* nav a:link{color:#fff;} */
+.jumbotron .container{min-height: 250px;}
+.jumbotron .container img{border-radius: 50%;}
+
+#progress-main{height: 6px!important;width:250px;margin:auto!important;}
+#refresh-progress{background-color:#777;}
+.btn-outline-primary:hover, .btn-primary{background-color: #1377d7 !important; color:#fff !important;}
+main a:link,footer a:link{color:#1377d7 !important;}
+.feature-section{background: #081f35;color:#eee;}
+
+footer.main-footer-container
+{
+  background-color: #03111f !important;
+  width:100% !important;
+  margin:0 !important;
+  padding:2rem !important;
+}
+pre
+{
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-left: 3px solid #00b3e7;
+  color: #666;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 6rem;
+  z-index: 10;
+text-shadow: 2px 2px 4px #000000;
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
+}
+
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.feature-image{
+  background-image: url('../img/historical.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 5rem;
+  max-width:500px;
+  max-height:500px;
+}
+
+.jumbotron{background: rgb(4,28,51);
+background: radial-gradient(circle, rgba(28,115,186,1) 0%, rgba(4,28,51,1) 62%);
+color:#fff;  text-shadow: 2px 2px #000000;border-radius: 0!important;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 40em) {
+  .carousel-caption p {
+    font-size: 1.25rem;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.75rem;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+
+
+/* ANIMATED COUNTERS
+-------------------------------------------------- */
+
+.counter
+{
+    text-align: center;
+}
+.employees,.customer,.design,.order
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.counter-count
+{
+    font-size: 18px;
+    background-color: #00b3e7;
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+    width: 92px;
+    height: 92px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+.employee-p,.customer-p,.order-p,.design-p
+{
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}
+
+
+#carousel-quote-1{min-height: 170px;}
+#storage{min-height: 100px;}
+
+.break-words{
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  overflow-x: hidden;
+}
+
+
+.quote-block a:link{color:#999!important;}
+.quote-block a:hover{color:#1377d7!important;}
+blockquote{hyphens: none !important;}
+
+.user-select-text
+{
+  -webkit-user-select: all; /* Safari */
+  -ms-user-select: all; /* IE 10 and IE 11 */
+  user-select: all; /* Standard syntax */
+}
